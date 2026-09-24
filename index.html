@@ -456,9 +456,9 @@
                             </a> <br>
                         
                     
-                    <!-- Contact Form -->
-                    <form class="contact-form" name="contact" method="POST" data-netlify="true">
-                        <!-- Hidden input required by Netlify to route form submissions -->
+                   <!-- Added action="/" to prevent the 404 error -->
+                    <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/">
+                        <!-- Hidden input required by Netlify -->
                         <input type="hidden" name="form-name" value="contact">
                         
                         <div class="form-row">
